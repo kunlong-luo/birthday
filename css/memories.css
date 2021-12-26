@@ -145,6 +145,27 @@
 		transform-origin:center bottom;
 		animation:box_to_point 18.5s 0s,bounce 2.5s 18.5s;
 	}
+	/*图片*/
+	.ly-imgbox01{
+		position: absolute;
+		bottom: 83px;
+		width: 100%;
+		height: 600px;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox01{
+		opacity:1;
+		transition-delay:8.5s;
+	}
+	.ly-img01{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+	}
 }
 
 /*移动端*/
@@ -152,7 +173,7 @@
 	.ly-box01 {
 		width:50px;
 		height:50px;
-		background-color:#FFF;
+		background-color: #ee9ca7;
 		border-radius: 25px;
 		position: absolute;
 		left: 48%;
@@ -161,6 +182,27 @@
 		overflow: hidden;
 		transform-origin:center bottom;
 		animation:box_to_point_mobile 18.5s 0s,bounce 2.5s 18.5s;
+	}
+	/*图片*/
+	.ly-imgbox01{
+		border-radius: 8px;
+		opacity:0;
+		position: absolute;
+		bottom: 83px;
+		width: 100%;
+		height: 600px;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox01{
+		opacity:1;
+		transition-delay:8.5s;
+	}
+	.ly-img01{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		bottom: 0;
 	}
 }
 
@@ -1313,7 +1355,7 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1382,7 +1424,7 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 80%;
+		height: 100%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1446,7 +1488,7 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 80%;
+		height: 100%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1516,7 +1558,7 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1585,7 +1627,7 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 80%;
+		height: 100%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -1649,7 +1691,7 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		height: 80%;
+		height: 100%;
 		border-radius: 8px;
 		opacity:0;
 		overflow: hidden;
@@ -2765,6 +2807,26 @@
 		transform: scale(1, 1);
 		transition-delay: 5s;
 	}
+	/*图片*/
+	.ly-imgbox82{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox82{
+		opacity:1;
+		transition-delay:8.5s;
+	}
+	.ly-img82{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
 	/*小三角*/
 	.ly-triangle82 {
 		width: 0;
@@ -2840,6 +2902,26 @@
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 		transition-delay: 5s;
+	}
+	/*图片*/
+	.ly-imgbox82{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox82{
+		opacity:1;
+		transition-delay:8.5s;
+	}
+	.ly-img82{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
 	}
 	/*小三角*/
 	.ly-triangle82 {
